@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header .div-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 33px;
+}
+header .navbar-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 33px;
+}/*# sourceMappingURL=style.css.map */
