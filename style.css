@@ -51,11 +51,13 @@ header .button-navbar:hover {
 
 main .sessao-doar {
   display: flex;
+  justify-content: center;
 }
 main .sessao-doar .texto-doar {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 54px 40px 20px;
 }
 main .sessao-doar .texto-doar h1 {
   font-family: "Poppins", sans-serif;
@@ -64,6 +66,7 @@ main .sessao-doar .texto-doar h1 {
   color: #1F2937;
   line-height: 130%;
   max-width: 700px;
+  margin-bottom: 20px;
 }
 main .sessao-doar .texto-doar h4 {
   font-family: "inter", sans-serif;
@@ -71,9 +74,11 @@ main .sessao-doar .texto-doar h4 {
   color: #4B5563;
   line-height: 100%;
   max-width: 680px;
+  margin-bottom: 30px;
 }
 main .sessao-doar .texto-doar .container-text-botoes {
   display: flex;
+  gap: 43px;
 }
 main .sessao-doar .texto-doar button {
   width: 189.81px;

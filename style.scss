@@ -59,11 +59,13 @@ header {
 main {
     .sessao-doar {
         display: flex;
+        justify-content: center;
 
         .texto-doar {
             display: flex;
             flex-direction: column;
             justify-content: center;
+            padding: 54px 40px 20px ;
                 h1{
                     font-family: 'Poppins', sans-serif;
                     font-weight: 700 bold;
@@ -71,6 +73,7 @@ main {
                     color: #1F2937;
                     line-height: 130%;
                     max-width: 700px;
+                    margin-bottom: 20px;
                 }
                 h4{
                     font-family: 'inter', sans-serif;
@@ -78,9 +81,11 @@ main {
                     color: #4B5563;
                     line-height: 100%;
                     max-width: 680px;
+                    margin-bottom: 30px;
                 }
                 .container-text-botoes{
                     display: flex;
+                    gap: 43px;
                 }
                 button {
                     width: 189.81px;
