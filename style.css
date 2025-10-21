@@ -49,6 +49,19 @@ header .button-navbar:hover {
   background-color: #21C05C;
 }
 
+main .sessao-doar {
+  display: flex;
+}
+main .sessao-doar .texto-doar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .sessao-doar .texto-doar h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
 @media (max-width: 700px) {
   header {
     display: flex;
