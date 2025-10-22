@@ -101,6 +101,32 @@ main .sessao-doar .texto-doar .botao-quero-adquirir {
   color: #2563EB;
 }
 
+.dados {
+  background-color: #F3F5F8;
+  display: flex;
+  justify-content: space-around;
+  height: 20vh;
+  align-items: center;
+  margin-top: 137px;
+}
+.dados h2 {
+  color: #16A34A;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  margin-bottom: 9px;
+  display: flex;
+  justify-content: center;
+}
+.dados p {
+  color: #4B5563;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+}
+
 @media (max-width: 700px) {
   header {
     display: flex;
