@@ -100,8 +100,7 @@ main .sessao-doar .texto-doar .botao-quero-adquirir {
   background-color: #FFFFFF;
   color: #2563EB;
 }
-
-.dados {
+main .dados {
   background-color: #F3F5F8;
   display: flex;
   justify-content: space-around;
@@ -109,7 +108,7 @@ main .sessao-doar .texto-doar .botao-quero-adquirir {
   align-items: center;
   margin-top: 137px;
 }
-.dados h2 {
+main .dados h2 {
   color: #16A34A;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -119,12 +118,70 @@ main .sessao-doar .texto-doar .botao-quero-adquirir {
   display: flex;
   justify-content: center;
 }
-.dados p {
+main .dados p {
   color: #4B5563;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
+}
+main .menu-comofunciona {
+  display: flex;
+  flex-direction: column;
+  margin: 110px 89.44px 115px;
+}
+main .texto1-menu-comofunciona {
+  margin-bottom: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700px;
+  font-size: 40px;
+  line-height: 100%;
+  color: #1F2937;
+}
+main .texto2-menu-comofunciona {
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 150%;
+  color: #1F2937;
+  margin-bottom: 94px;
+}
+main .card-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F3F5F8;
+  width: 491px;
+  height: 481px;
+  top: 1211px;
+  left: 88.66px;
+  border-radius: 8px;
+}
+main .card-top img {
+  width: 53.58px;
+}
+main .card-top .icone-presente-e-texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 28.42px;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+main .card-top .para-doadores {
+  display: flex;
+  align-items: center;
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 150%;
+  color: #16A34A;
+  margin-bottom: 36.21px;
+  margin-top: 47.79px;
+}
+main .card-conteudo {
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 700px) {
