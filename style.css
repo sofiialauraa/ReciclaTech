@@ -149,28 +149,31 @@ main .texto2-menu-comofunciona {
 main .card-top {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: #F3F5F8;
   width: 491px;
-  height: 481px;
+  height: 600px;
   top: 1211px;
   left: 88.66px;
   border-radius: 8px;
 }
-main .card-top img {
-  width: 53.58px;
-}
-main .card-top .icone-presente-e-texto {
+
+.icone-presente-e-texto {
   display: flex;
-  align-items: center;
+  padding-left: 2rem;
   justify-content: center;
   margin-bottom: 28.42px;
   flex-direction: column;
   font-family: "Poppins", sans-serif;
+  position: relative;
 }
-main .card-top .para-doadores {
-  display: flex;
-  align-items: center;
+.icone-presente-e-texto img {
+  position: absolute;
+  top: 27%;
+}
+
+.para-doadores {
+  padding-left: 3.9rem;
+  align-items: start;
   font-family: "inter", sans-serif;
   font-weight: 400;
   font-size: 25px;
@@ -179,9 +182,22 @@ main .card-top .para-doadores {
   margin-bottom: 36.21px;
   margin-top: 47.79px;
 }
-main .card-conteudo {
-  display: flex;
-  align-items: center;
+
+.card-conteudo {
+  padding-left: 2rem;
+}
+
+.card-content {
+  padding-top: 3rem;
+  position: relative;
+}
+.card-content img {
+  position: absolute;
+}
+
+.card-title-neg {
+  font-family: "Poppins", sans-serif;
+  color: #09090B;
 }
 
 @media (max-width: 700px) {

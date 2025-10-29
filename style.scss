@@ -141,7 +141,6 @@ main {
         flex-direction: column;
         margin: 110px 89.44px 115px;
 
-
     }
     .texto1-menu-comofunciona{
         margin-bottom: 22px;
@@ -162,28 +161,31 @@ main {
     .card-top{
         display: flex;
         flex-direction: column;
-        align-items: center;
         background-color: #F3F5F8;
         width: 491px;
-        height: 481px;
+        height: 600px;
         top: 1211px;
         left: 88.66px;
         border-radius: 8px;
-
-        img{
-            width: 53.58px;
         }
+    
+    }
     .icone-presente-e-texto{
         display: flex;
-        align-items: center;
+        padding-left: 2rem;
         justify-content: center;
         margin-bottom: 28.42px;
         flex-direction: column;
         font-family: 'Poppins', sans-serif;
+        position: relative;
+        img{
+        position: absolute;
+        top: 27%;
+        }
     }
     .para-doadores{
-        display: flex;
-        align-items: center;
+        padding-left: 3.9rem;
+        align-items: start;
         font-family: 'inter', sans-serif;
         font-weight: 400;
         font-size: 25px;
@@ -192,14 +194,25 @@ main {
         margin-bottom: 36.21px;
         margin-top: 47.79px;
     }
-
-    }
     .card-conteudo{
-        display: flex;
-        align-items: center;
+        padding-left: 2rem;
     }
+    .card-content{
+        padding-top: 3rem;
+        position: relative;
+        img{
+            position: absolute;
+        }
+    }
+    .card-title-neg{
+        font-family: 'Poppins', sans-serif;
+        color: #09090B
+        
 
-}
+
+    }
+    
+
 @media (max-width: 700px) {
     header {
         display: flex;
