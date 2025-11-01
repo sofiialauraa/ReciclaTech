@@ -206,12 +206,13 @@ main {
     }
     .card-title-neg{
         font-family: 'Poppins', sans-serif;
-        color: #09090B
-        
-
-
+        color: #09090B;
+        font-weight: 700;
     }
-    
+    .card-title{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
 
 @media (max-width: 700px) {
     header {
